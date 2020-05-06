@@ -1,0 +1,35 @@
+{
+  "name": "error-boundary-error-repro",
+  "version": "0.0.0",
+  "description": "Example of error boundary error",
+  "author": "Michael Peyper",
+  "repository": "https://github.com/mpeyper/error-boundary-error-repro.git",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-error-boundary": "^2.2.1",
+    "react-scripts": "^3.4.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^10.0.4",
+    "react-test-renderer": "^16.13.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
